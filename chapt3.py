@@ -19,4 +19,10 @@ elif var <= 25:
     print("The varible is greater than 10, but less than or equal to 25!")
 else:
     print("The variable is greater than 25!")
-             
+
+# divide 2 vars and print their remainder
+
+var1 = 10
+var2 = 5
+remainder = var1 % var2
+print(remainder)
