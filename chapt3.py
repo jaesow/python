@@ -26,3 +26,25 @@ var1 = 10
 var2 = 5
 remainder = var1 % var2
 print(remainder)
+
+# Divide 2 vars and print the quotient
+
+var1 = 10
+var2 = 5
+quotient = var1 / var2
+print(quotient)
+
+# assign var age to an int, print diff strings depending on what the int age is
+
+#age = 50
+age = 50
+if age == 50:
+    print("You're half a century old!")
+    
+#age = 20
+age = 20
+if age == 20:
+    print("You have your whole life ahead of you!")
+    
+    
+
