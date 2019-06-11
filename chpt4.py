@@ -8,3 +8,13 @@ def squared_func():
 
 squared_func()
 
+#function that accepts a string as a param and prints it
+
+def f(string = "hi"):
+    print(string)
+
+f()
+
+
+
+
