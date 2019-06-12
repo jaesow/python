@@ -1,7 +1,7 @@
 # write a function that takes a number as an input and returns that number squared
 
 def squared_func():
-    x = input("typer a number:")
+    x = input("type a number:")
     x = int(x)
     x_squared = x **2
     print(x_squared)
@@ -24,6 +24,22 @@ def f(x, y, z, a=1, b=2):
     print(x, y, z)
 
 f(x, y, z)
+
+# two functions. First: takes an integer as a param, return int/2. Second: takes an int as param, returns int*4. Call first func, save result as var that is passed into second func as param
+
+#func that converts a string to a float, returns result, use exception handling to catch exception
+
+
+try:
+    x = input ("type a number: ")
+    x = float(x)
+    print(x)
+except ValueError:
+        print("Invalid entry. Type a number")
+
+
+    
+
 
 
 
