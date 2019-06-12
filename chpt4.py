@@ -15,6 +15,16 @@ def f(string = "hi"):
 
 f()
 
+#function that takes 3 required params and 2 optional params
+
+x = 3
+y = 4
+z = 5
+def f(x, y, z, a=1, b=2):
+    print(x, y, z)
+
+f(x, y, z)
+
 
 
 
