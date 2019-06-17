@@ -27,6 +27,24 @@ f(x, y, z)
 
 # two functions. First: takes an integer as a param, return int/2. Second: takes an int as param, returns int*4. Call first func, save result as var that is passed into second func as param
 
+x= input ("enter a number: ")
+x = int(x)
+def first(x):
+    result = x/2
+    print(result)
+    return result
+
+def second(y):
+    result3 = y*4
+    print(result3)
+    
+result2 = first(x)
+second(result2)
+
+
+
+
+
 #func that converts a string to a float, returns result, use exception handling to catch exception
 
 
