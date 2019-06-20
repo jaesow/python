@@ -82,7 +82,7 @@ or
 not
   ie: not True 
   >>False
-# Conditional Statements 
+## Conditional Statements 
 
 Conditional statements can be constructed with keywords: if, elif & else
 Fiven x =3. The following consitional statement would yield
