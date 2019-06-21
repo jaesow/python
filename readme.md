@@ -142,6 +142,10 @@ Here x is required and y is optional.
   
   ## Error Handling 
 
+    * SyntaxError: EOL while scanning string literal
+    * ZeroDivisionError: division by zero
+    * IndentationError: unexpected indent
+    
     y = input("Give a value for y:")
     try:
       x = int(y)
@@ -150,8 +154,51 @@ Here x is required and y is optional.
     >> Give a value for y:
     >> Python 
     >>y must be a number 
-* SyntaxError: EOL while scanning string literal
-* ZeroDivisionError: division by zero
-* IndentationError: unexpected indent
+    
+   ## Containers
+   
+   ### Lists 
+   * a container that stores objects in a specific order 
+   * iterable 
+   * mutable 
+   
+    list = []
+    list = list()
+    
+   use index such as list[1] to find object in the list at a specific index 
+   use *append()* to add to a list
+   use *pop()* to remove last item from list
+   add 2 lists with the addition operator 
+   use keyword *in* to check if an item is in a list 
+   use keyword *not* paired with *in* to check if an item is not in a list 
+   
+   ### Tuples 
+   * a container thatr stores objects in a specific order
+   * immutable 
+   * iterable
+      tuple = ()
+      tuple = tuple()
+      
+   use index such as tuple[1] to find object in the tuple at a specific index 
+   use keywords *in* and *not* just like lists
+   
+   ### Dictionaries 
+   
+   * a container that maps a key to a value 
+   
+    dictionary = {}
+    dictionary = dict()
+  
+  add a value using the following format:
+  
+    dictionary["key1"] = "value1"
+    dictionary["key2"] = "value2"
+   
+   >>{"key1": "value1", "key2":"value2"}
+   
+   use keywords *in* and *not* just like lists
+   Containers can contain different containers. 
+    
+
 
 
