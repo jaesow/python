@@ -95,7 +95,15 @@ elif x == 2:
   print("x is 2")
 else:
   print("x is not 1 or 2")
+
+## Functions
+
+Use *def* to define your function and then give your function a name along with parameters to pass in parenthesis 
+
+def functionName(x):
+  return x +1
   
+>>functionName(2)
 ## Error Handling 
 
 * SyntaxError: EOL while scanning string literal
