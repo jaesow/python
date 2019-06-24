@@ -11,4 +11,10 @@ response_one = input("Enter a word: ")
 response_two = input("Enter another word: ")
 print("Yesturday I wrote a " + response_one + "." + " I sent it to " + response_two + "!")
 
+#3. Use a method to make the string "aldous Huxley was born in 1894." grammitically correct by capitalizing the first letter in the sentence.
 
+
+string = "aldous Huxley was born in 1894."
+string = string.capitalize()
+string = string.replace("h", "H")
+print(string)
