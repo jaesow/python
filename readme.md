@@ -198,6 +198,66 @@ Here x is required and y is optional.
    
    use keywords *in* and *not* just like lists
    Containers can contain different containers. 
+   
+   ## Strings 
+   
+   * strings are immutable
+   * use an index to look up characters, indexes start at 0 
+   * a **neagative index** can be used to look up items from right to left where [-1] is the last element
+   
+    string = "Jenaba"
+    string[0] = J
+    string[2] = n
+    
+    COME BACK MISSING ITEMS
+    
+    #### built-in Functions for Strings
+    
+    **.upper()** - turns string to all upper case chars
+    **.lower()** - turns string to all lower case chars 
+    **.capitalize()** - capitalizes the first letter of a sentence
+    **.format(x)** - will insert into the string to replace the empty {}
+    
+    
+     "Hello, my name is {}".format("Noelle")
+     >> "Hello, my name is Noelle"
+     
+     **.split(x)** - splits a string into a list at each x
+      "blue, pink, purple".split(" , ")
+      >> ["blue", "pink", "purple"]
+      
+      **.join()** - used to add new chars between chars of a string; can also be used to turn a list of strin with a new char in between 
+      ".".join("python")
+      
+>> "python"
+
+**.replace(x, y)** - when passed two arguments x and y, will replace x with y 
+
+  string = "Hello World"
+  string.replace("l", "!")
+  
+  >> "He!!o Wor!ld"
+  
+**.inde** - returns the index of the first occurence of x in a string
+  string = "Heloo World"
+  string.index('o')
+  
+>>4
+
+*use he keyword *in* to check if a string contains another string
+
+* escape strings within strings by using the backslash (\")
+
+  "I said \"Hello World""
+  
+* \n in a string creates a new line 
+
+* use the suntax string [x:y] to slice a string from index x up to index y 
+
+    string = "Hello World"
+    string[0:5]
+
+MISSINGS ITEMS
     
 
 
