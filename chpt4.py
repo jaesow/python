@@ -49,6 +49,9 @@ f(x, y, z)
 x= input ("enter a number: ")
 x = int(x)
 def first(x):
+    """
+    Returns result 
+    """
     result = x/2
     print(result)
     return result

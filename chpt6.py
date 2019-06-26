@@ -13,8 +13,11 @@ print("Yesturday I wrote a " + response_one + "." + " I sent it to " + response_
 
 #3. Use a method to make the string "aldous Huxley was born in 1894." grammitically correct by capitalizing the first letter in the sentence.
 
-
 string = "aldous Huxley was born in 1894."
 string = string.capitalize()
 string = string.replace("h", "H")
 print(string)
+
+#4. Take the string "Where now? Who now? When now?" and call a method that returns a list that looks like: ["Where now?", "Who now?", "When now?"].
+
+
