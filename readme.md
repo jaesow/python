@@ -252,12 +252,90 @@ Here x is required and y is optional.
   
 * \n in a string creates a new line 
 
-* use the suntax string [x:y] to slice a string from index x up to index y 
+* use the syntax string [x:y] to slice a string from index x up to index y 
 
     string = "Hello World"
     string[0:5]
 
 MISSINGS ITEMS
+
+### Modules 
+* another name for a puthon file with code in it
+* you can import a module using keyword import to use varibales and functions from it 
+
+**Built-in Modules:
+* math 
+* random
+* statistics
+*keyword
+
+import math 
+
+math.pow(2,3)
+
+>> 8.0 
+**Create your own module by:
+
+* create a python file 
+* save the file 
+* import the file into another file locates in the same folder 
+
+### Files 
+
+* python had built in functions made to manipulate file objects 
+* first step is to open a file using the *open()* function
+* the *write()* function lets you write x to a file 
+* the *read()* functions lets you read from a file 
+* you must clse the file 
+
+### Open file
+
+* the *open* function takes a file and a file mode and return a file object 
+
+* Here are some modes that you can open a file in:
+  * "r" - opens a file for readign only
+  * "w" - opens a file for writing only; overwrites the fiel if it already exists; if it doesn't exist, creates a new file
+  * "w+" - opens a file for readign and writing; overwrites the file if it already exists; if it doesn't exist, creates a new file
+  
+  st = open("st.text", "w")
+  st.write("Hi from Python!") 
+  
+  
+  #### Automatically close file 
+  * to automatically close a file without using the *close() function, open your file using a *with-statemnt*
+  MISSING 
+  
+  #### CSV files 
+  
+  * python has built-in module for working with csv files
+  * you can use the *open()* function to open a file and then use the *writer   ?MISSING?
+  * use the fucntion *writerow()* to write to the csv object
+  
+  import csv
+  
+  with open("st.csv", "w", newline=' ') as f:
+  w.writerow(["one", "two", "three"])
+  w.writerow(["four", "five", "six"])
+  
+  >> one, two, three
+  >> four, five, six
+  
+  * the csv module also has a function for reading a csv file: * reader()*
+  * the *reader()* function returns an iterable of the rows in the csv file 
+  
+  import csv
+  
+  with open("st.csv", "r") as f:
+    r = csv.reader(f, delimiter=",")
+    for row in r:
+      print(",".join(row))
+  
+  >> one, two, three
+  
+  >> four, five, six 
+  
+  
+  
     
 
 
