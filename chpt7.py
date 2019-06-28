@@ -19,6 +19,11 @@ for i in range(25, 51):
 # of numbers. Each time through the loop ask the user to guess a number on the list and tell them
 # whether or not they guessed correctly
 
+x = 10
+while x = 10:
+    guess = input("Enter a guess, or q to quit: ")
+    if guess == 
+
 
     
 

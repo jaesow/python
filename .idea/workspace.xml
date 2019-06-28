@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f29c98f-5b6a-43cb-8147-65e4bb0f422a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chpt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/chpt4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chpt6.py" beforeDir="false" afterPath="$PROJECT_DIR$/chpt6.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +24,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="47" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="56" />
     <option name="y" value="23" />
     <option name="width" value="1328" />
     <option name="height" value="812" />
@@ -101,8 +98,7 @@
     <option name="totallyTimeSpent" value="189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="23" width="1328" height="812" extended-state="1" />
-    <editor active="true" />
+    <frame x="56" y="23" width="1328" height="812" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
